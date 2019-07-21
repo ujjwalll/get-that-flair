@@ -1,0 +1,246 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Reddit Data Analysis. </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Reddit flair detector">
+	<meta name="keywords" content="reddit, detector, machinelearning, webapp">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="/static/app/img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="/static/app/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/app/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/static/app/css/magnific-popup.css">
+	<link rel="stylesheet" href="/static/app/css/style.css">
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="body-pad">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- header section start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="logo">
+					<h2 class="site-logo"> Reddit Data Analysis. </h2>
+				</div>
+			</div>
+			<div>
+				<a href="{% url 'index' %}" class="site-btn header-btn">Back to Detector</a>
+			</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</div>
+	</header>
+	<!-- header section end -->
+
+
+	<!-- portfolio section start -->
+	<section class="portfolio-section pt100">
+		<div class="container">
+			
+		</div>                       
+		<div class="container-fluid p-0">
+			<div class="row portfolios-area">
+				<div class="col-lg-6">
+					<div class="portfolio-intro">
+						<h2 class="section-title mb-5">It's a Detailed <span>analysis</span>, of reddit flair detection service and Dataset</h2>
+						<ul class="portfolio-filter controls">
+							<li class="control" data-filter="all">All</li>
+							<li class="control" data-filter=".web">Web design</li>
+							<li class="control" data-filter=".digital">Digital design</li>
+							<li class="control" data-filter=".rened">3D Renedering</li>
+							<li class="control" data-filter=".brand">Brand Identity</li>
+						</ul>
+					</div>
+				</div>
+				<div class="first-item col-md-6 col-lg-12 mix digital p-lg-0">
+					<a href="/static/app/img/portfolio/1.jpg" class="portfolio-item set-bg " data-setbg="/static/app/img/portfolio/1.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>			
+					</a>
+					<div class="portfolio-meta">
+						<h2>Accuracy Graph</h2>
+						<p>When Only URL taken as Input</p>
+					</div>
+				</div>
+				<div class="second-item mix col-md-6 web">
+					<a href="/static/app/img/portfolio/2.jpg" class="portfolio-item set-bg" data-setbg="/static/app/img/portfolio/2.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Heat Map</h2>
+						<p>When Title and URL are taken together</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 rened">
+					<a href="/static/app/img/portfolio/3.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/3.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Tweety</h2>
+						<p>Text Blob representation of URL in beautiful Bird.</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 digital">
+					<a href="/static/app/img/portfolio/4.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/4.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>World Map -1</h2>
+						<p>Text Blob of TITLE in World Map Form</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 rened">
+					<a href="/static/app/img/portfolio/5.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/5.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>World Map -2</h2>
+						<p>ext Blob of BODY in World Map Form</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 brand">
+					<a href="/static/app/img/portfolio/6.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/6.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>World Map -3</h2>
+						<p>ext Blob of FLAIr in World Map Form</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 digital">
+					<a href="/static/app/img/portfolio/7.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/7.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Embeddings</h2>
+						<p>Title + Body word Embeddings - Top 2000</p>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-3 brand">
+					<a href="/static/app/img/portfolio/8.jpg" class="portfolio-item pi-style2 set-bg" data-setbg="/static/app/img/portfolio/8.jpg">
+						<div class="pi-inner">
+							<h2>+ See Picture</h2>
+						</div>						
+					</a>
+					<div class="portfolio-meta">
+						<h2>Year vs Comments</h2>
+						<p>Graph to show growth of r/india with time.</p>
+					</div>
+				</div>
+			</div>
+				<br><br><br>
+				<h1>Average comments Distribution</h1>
+				<center><div id="chartContainer" style="height: 370px; width: 100%;"></div></center>
+				<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+			</div>
+		</div>
+	</section>
+	<!-- portfolio section end -->
+
+
+	<!-- footer section start -->
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<h2 class="section-title mb-5">Reddit Data Analysis</h2>
+					<a href="{% url 'index' %}" class="site-btn">Back to Detector</a>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Under Creative Commons Project by <a href="https://ujjwalll.github.io" target="_blank">UJJWAL SINGH</a>
+</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="/static/app/js/jquery-2.1.4.min.js"></script>
+	<script src="/static/app/js/bootstrap.min.js"></script>
+	<script src="/static/app/js/mixitup.min.js"></script>
+	<script src="/static/app/js/magnific-popup.min.js"></script>
+	<script src="/static/app/js/main1.js"></script>
+	<script>
+	window.onload = function () {
+
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "dark2",
+		exportFileName: "Doughnut Chart",
+		exportEnabled: true,
+		animationEnabled: true,
+		title:{
+			text: "Distribution"
+		},
+		legend:{
+			cursor: "pointer",
+			itemclick: explodePie
+		},
+		data: [{
+			type: "doughnut",
+			innerRadius: 90,
+			showInLegend: true,
+			toolTipContent: "<b>{name}</b>: (#percent%)",
+			indexLabel: "{name} - #percent%",
+			dataPoints: [
+				{ y: 800, name: "AMA" },
+				{ y: 470, name: "Food" },
+				{ y: 220, name: "Non-Political" },
+				{ y: 250, name: "Photography" },
+				{ y: 380, name: "Politics" },
+				{ y: 90, name: "Science and Technology"},
+				{ y: 450, name: "Sports" },
+				{ y: 350, name: "Scheduled"},
+				{ y: 170, name: "Economics"},
+				{ y: 350, name: "Finance"},
+				{ y: 420, name: "Ask India"},
+			]
+		}]
+	});
+chart.render();
+function explodePie (e) {
+	if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+	} else {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+	}
+	e.chart.render();
+}
+
+}
+</script>
+</body>
+</html>
