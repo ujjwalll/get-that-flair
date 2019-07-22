@@ -73,6 +73,19 @@ These all things are presented in a very beautiful way at DATA ANALYSIS PAGE.
 
 My application uses features like TITLE, URL and COMMENTS of the DATABASE and produces around 75.41 in SVM model and 76.19 in Random Forest. 
 
+# Dependency
+
+All dependencies are present in requirements.txt
+
+# Clone it in your PC
+
+Follow these Steps :
+
+* Clone this repo
+* Create Virtual Environment
+* Then run commend $pip install -r requirements.txt
+* After that run the server by command - $python3 main.py runserver.
+
 # Gratitute
 
 I would like to thank team Precog @ IIIT Delhi for giving me the opportunity to work on this wonderful project.
