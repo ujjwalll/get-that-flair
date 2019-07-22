@@ -36,7 +36,13 @@ This is so easy to use.
 
 As described in doc, I have conducted various data Analysis on the reddit dataset and add a page for it in my website.
 
-## How to find it
+Visit that page by clicking on the STATISTICS page as shown below.
 
-Go to the Index Page, you will see a text named STATISTICS, Click on it, It will redirect you to the STATISTICS page.
+![](f.jpg)
+
+# DATA ANALYSIS PAGE:
+
+Now, if everything goes right, you will be at the DATA ANALYSIS Page.
+
+I have done a lots of thing to visualise, understand data patterns. Some of the things are listed below.
 
