@@ -37,6 +37,6 @@ def detect_flair(url,loaded_model):
   redditt["comment"] = comment
   redditt['comment'] = clean_text(redditt['comment'])
   redditt['title'] = clean_text(redditt['title'])
-  redditt['combine'] = redditt['title'] + redditt['comment'] + redditt['url']
+  redditt['main'] = redditt['title'] + redditt['comment'] + redditt['url']
   
-  return loaded_model.predict([redditt['combine']])
+  return loaded_model.predict([redditt['main']])
