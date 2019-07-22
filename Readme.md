@@ -44,5 +44,47 @@ Visit that page by clicking on the STATISTICS page as shown below.
 
 Now, if everything goes right, you will be at the DATA ANALYSIS Page.
 
-I have done a lots of thing to visualise, understand data patterns. Some of the things are listed below.
+I have done a lots of thing to visualise, understand data patterns. Some of the major things are listed below.
 
+* Text Analysis
+* Sentiment Analysis
+* Forms BAG of WORDS
+* Bi-Grams, TRI-Grams
+* Word CHARTS representation in unique way
+* Analysis of growth of r/india subreddit
+* Average comments
+* Topic Modeling
+
+These all things are presented in a very beautiful way at DATA ANALYSIS PAGE.
+
+![](d.png)
+
+
+
+![](e.png)
+
+# Techological Stack
+
+1. Python is the core technology that supports the framework of this web app. This app uses DJANGO framework. All other codes for extracting data, training, testing is being done using PYTHON>
+
+2. Cascading style sheets (CSS) and java script is also used to create the Front end of the web app to make it a little bit stylish and good looking.
+
+# Accuracy
+
+My application uses features like TITLE, URL and COMMENTS of the DATABASE and produces around 75.41 in SVM model and 76.19 in Random Forest. 
+
+# Gratitute
+
+I would like to thank team Precog @ IIIT Delhi for giving me the opportunity to work on this wonderful project.
+
+# REFERENCES
+
+https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
+
+https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+
+Google
+
+W3 School
+
+Stackoverflow
