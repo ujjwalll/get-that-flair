@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import nltk
 from nltk.corpus import stopwords
 
-reddit = praw.Reddit(client_id='gGF08Gr5b_zfKw', client_secret='xOfL8aVij1yN9ybgICrdmNjWW9c', user_agent='Reddit', username='AlphaUSD', password='Cg4GTRjfb8ybGDU')
+reddit = praw.Reddit(client_id='#', client_secret='#', user_agent='#', username='#', password='#')
 
 remove_space = re.compile('[/(){}\[\]\|@,;]')
 Remove_Symbols = re.compile('[^0-9a-z #+_]')
