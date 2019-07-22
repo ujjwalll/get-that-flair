@@ -84,7 +84,7 @@ Follow these Steps :
 * Clone this repo
 * Create Virtual Environment
 * Then run commend $pip install -r requirements.txt
-* After that run the server by command - $python3 main.py runserver.
+* After that run the server by command - $python3 manage.py runserver.
 
 # Gratitute
 
