@@ -75,7 +75,7 @@ My application uses features like TITLE, URL and COMMENTS of the DATABASE and pr
 
 # Dependency
 
-All dependencies are present in requirements.txt
+All dependencies are present in requirements.txt, install them in your system before proceeding ahead.
 
 # Clone it in your PC
 
